@@ -8,8 +8,8 @@
 */
 const mongoose = require('mongoose');
 
-// mongodb+srv://krakash1022:9572975665@cluster0.0n57yxv.mongodb.net/
-mongoose.connect("mongodb+srv://krakash1022:9572975665@cluster0.0n57yxv.mongodb.net/")
+
+mongoose.connect("mongodb+srv://akash19btcse006:r463qAhAREOuRHSy@cluster0.bsa8hal.mongodb.net/")
 const todoSchema = mongoose.Schema({
     title: String,
     descrption: String,
